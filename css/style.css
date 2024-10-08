@@ -1,10 +1,10 @@
-*a {
+a {
     text-decoration: none;
 }
-*li {
+li {
     list-style-type: none;
   }
-*body{
+body{
     font-family: 'Roboto', sans-serif;
     color:  #434455;
     background-color:#FFFFFF;
@@ -69,11 +69,11 @@
     letter-spacing: 0.02em;
     color: #404bbf;
 }
-.section-1{
+.section-one{
     background-color: #2e2f42;
 
 }
-.title-h1 {
+.title-hone {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -98,16 +98,85 @@
     cursor: pointer;
     background-color: #404BBF;
 }
-.h3-sec2{
+.h-sectwo{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2e2f42;
 }
-.p-sec2{
+.p-sectwo{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.section-three{
+    background-color: #F4F4FD;
+
+}
+.title-section-three{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.h-section-three{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.p-section-three{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455
+}
+.title-section-four {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.h-section-four {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.p-section-four {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.fotter-last{
+    background-color: #2e2f42;
+}
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-second-letter{
+    color: #f4f4fd;
+}
+:root {
+    --text-color: #F4F4FD;
+}
+.p-footer{
+    line-height: 1.5;
+    color: var(--text-color);
+    letter-spacing: 0.02em;
 }
