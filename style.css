@@ -1,24 +1,26 @@
-a {
+*a {
     text-decoration: none;
 }
-li {
+*li {
     list-style-type: none;
   }
-body{
-    font-family: Roboto, sans-serif;
+*body{
+    font-family: 'Roboto', sans-serif;
     color:  #434455;
     background-color:#FFFFFF;
     
 }
-
+.adress-1{
+    font-style: normal;
+}
 .logo-first-letters {
-    font-family: var(--second-family);
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5 
 }
 .second-logo-letters {
     font-family: var(--second-family);
@@ -27,40 +29,42 @@ body{
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
-.studio-page {
+.home-text {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 
 }
-.studio-page :hover{
+.home-text :hover{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--ocean);
+    color:  #404bbf;
 }
-.portfolio-page {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+.home-text:focus{
+    color: #404bbf;
 }
-.contacts-page {
+
+.adress-start{
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #434455;
+}
+.adress-start:hover{
+    color: #404bbf;
+}
+.adress-start:focus{
+    color: #404bbf;
 }
 .title-h1 {
     family: Roboto;
