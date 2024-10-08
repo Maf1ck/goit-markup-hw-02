@@ -28,6 +28,7 @@ footer{
 .logo-first-letters:hover{
     color: #404bbf;
 }
+
 .second-logo-letters {
     color: #2e2f42;
 }
@@ -40,7 +41,7 @@ footer{
     color: #2e2f42;
 
 }
-.home-text :hover{
+.home-text:hover{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
