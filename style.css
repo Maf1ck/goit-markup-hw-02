@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+  }
+body{
+    font-family: Roboto;
+}
+
+.logo-first-letters {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+.second-logo-letters {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+.studio-page {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+
+}
+.studio-page :hover{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+}
+.portfolio-page {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.contacts-page {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.title-h1 {
+    family: Roboto;
+    weight: Bold;
+    Size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+.title-button {
+}
+.li-strategy {
+}
+.li-puntuality {
+}
+.li-diligance {
+}
+.li-technologies {
+}
