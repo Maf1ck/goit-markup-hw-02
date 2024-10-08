@@ -10,7 +10,7 @@ body{
     background-color:#FFFFFF;
     
 }
-.adress-1{
+.adress-one{
     font-style: normal;
 }
 .logo-first-letters {
@@ -21,6 +21,9 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5 
+}
+.logo-first-letters:hover{
+    color: #404bbf;
 }
 .second-logo-letters {
     color: #2e2f42;
