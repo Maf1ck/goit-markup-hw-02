@@ -126,6 +126,9 @@ body{
     text-transform: capitalize;
     color: #2e2f42;
 }
+.li-section-three{
+    color: #FFFFFF;
+}
 .h-section-three{
     font-weight: 500;
     font-size: 20px;
